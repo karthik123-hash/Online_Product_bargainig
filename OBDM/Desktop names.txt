@@ -1,0 +1,45 @@
+Dell Inspiron 518
+Dell Inspiron 560
+Dell Inspiron 620
+Dell Inspiron 660
+Dell Inspiron 2320
+Dell OptiPlex 390
+Dell OptiPlex 990
+Dell Vastro 260
+Dell Vastro 270
+Dell Vastro 360
+Dell XPs 8500
+
+
+HCL ACF0012
+HCL AC2V0140
+HCL AC2V0157
+HCL AC2V0177
+HCL AC2V0181
+HCL AD1V0027
+HCL AD1V0028
+HCL AD1V0030
+HCL Lyfe
+
+
+HP Brazo 18
+HP CQ20001L
+HP DreamScreen
+HP Envy
+HP Omni 105
+HP SG33401L
+
+
+Lenovo C320
+Lenovo A720
+Lenovo B320
+Lenovo B320_a
+Lenovo B320_b
+Lenovo C200
+Lenovo C240
+Lenovo C320
+Lenovo C340
+Lenovo C440
+Lenovo Essential C200
+Lenovo H410
+Lenovo H420

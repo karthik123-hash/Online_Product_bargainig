@@ -1,0 +1,178 @@
+* { margin: 0; padding: 0; outline: 0; }
+
+body {
+    font-size: 12px;
+    line-height: 12px;
+    font-family: "Trebuchet MS", arial, sans-serif;
+    background: #00000  repeat-x 0 18px;
+}
+
+.order{
+	
+	margin: 0 auto;
+	padding: 0 0px;
+	margin-left: 10px	
+}
+.order1{
+	
+	margin: 0 auto;
+	padding: 0 0px;
+	margin-left: 30px	
+}
+
+.shell {
+	width: 978px;
+	margin: 0 auto;
+	padding: 0 0px;
+	margin-left: 50px
+	
+}
+.style18 {font-size: 60px}
+.style23 {
+	color: #FF0000;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style24 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.style25 {font-size: 14px}
+
+a { color: #0252aa; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }  /* last line home contact hyperlinks */
+
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; } /* text indentations */
+
+
+
+/* log text transparent */
+
+#log input { background: none; border: none; color:#000000} 
+#wrapper { background: url('images/white.jpg') repeat-x center 0px; }/* white colored background image*/
+
+/* Search button */
+#search { background: url('images/search-bg.png') repeat-x 0 0; padding-top: 15px; } /* top green color  */
+
+
+
+/* Heading PCSTORE 
+h1#logo { padding-top: 10px; padding-bottom: 15px; }*/
+
+/* Navigation of Home special offer  login etc */
+#navigation { background: url('images/nav-bg.png') no-repeat center 0; margin-bottom: 10px; }
+#navigation li { float: left; display: inline; border-right: 1px solid #5b5b5b; }
+#navigation li a { float: left; height: 48px; line-height: 48px; font-weight: bold; font-size: 14px; color: #fff; display: inline; padding-left: 70px; padding-right: 16px; }
+
+
+
+/* Footer */
+#footer { background: url('images/footer-bg.png') repeat-x 0 0; color: #c5db87; font-size: 11px; padding-top: 9px; padding-bottom: 30px; }
+#footer a { color: #c5db87; }
+#footer span { padding: 0 6px; }
+#footer p { float: right; display: inline; font-family: arial, sans-serif; word-spacing: 1px; padding-right: 1px; }
+#footer p.bottom-menu { float: left; display: inline; font-family: "Trebuchet MS", arial, sans-serif; word-spacing: 0; padding-top: 1px; padding-left: 8px; }
+
+
+.container {
+	float:right;
+	width: 900px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 100px; /* bottom bar*/
+	margin-left: 0;
+}
+
+#content h1 { /* register on top*/
+	color: #7E7E7E;
+	font: bold 25px Helvetica, Arial, sans-serif;
+	letter-spacing: -0.05em;
+	line-height: 20px;
+	margin: 10px 0 30px;
+}
+
+#content form { margin: 0 20px; position: relative }
+
+select[name="state"],[name="city"]{
+	width: 320px;
+	height: 40px;
+    padding:7px;
+    border-radius:4px; 
+    background: #f8f8f8;
+    color:#000066;
+    border-color:#cccccc;
+    outline:none;
+}
+select[name="qty"]{
+	width: 60px;
+	height: 40px;
+    padding:7px;
+    border-radius:4px; 
+    background: #f8f8f8;
+    color:#000066;
+    border-color:#cccccc;
+    outline:none;
+}
+textarea#styled {
+	width: 300px;
+	height: 100px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	background-image: url(bg.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+#content form input[type="text"] {
+	width: 300px;
+	height: 20px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	background-image: url(bg.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+#content form input[type="submit"] {
+	background: rgb(254,231,154);
+	background: -moz-linear-gradient(top,  rgba(254,231,154,1) 0%, rgba(254,193,81,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: -o-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	background: linear-gradient(top,  rgba(254,231,154,1) 0%,rgba(254,193,81,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fee79a', endColorstr='#fec151',GradientType=0 );
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	border-radius: 30px;
+	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-moz-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-ms-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	-o-box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset;
+	border: 1px solid #D69E31;
+	color: #85592e;
+	cursor: inherit;
+	float: inherit;
+	font: bold 15px Helvetica, Arial, sans-serif;
+	height: 35px;
+	margin: 20px 0 35px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	width: 220px;
+}
+#content form input[type="submit"]:hover {
+	background: rgb(254,193,81);
+	background: -moz-linear-gradient(top,  rgba(254,193,81,1) 0%, rgba(254,231,154,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	background: -o-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	background: linear-gradient(top,  rgba(254,193,81,1) 0%,rgba(254,231,154,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec151', endColorstr='#fee79a',GradientType=0 );
+}
+/* CSS Document */
+

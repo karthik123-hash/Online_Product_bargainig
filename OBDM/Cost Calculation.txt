@@ -1,0 +1,33 @@
+Product Nokia Lumia 
+Actual Cost = 12250/-  i.e     A
+Average Nokia Lumia Sold in last 7 days 170   i.e  Vi
+
+A=12250
+vi=170
+
+vi is converted into smaller unit 
+X=vi*0.05
+X=170*0.05
+X=8
+
+Y=(A*x)/100
+Y=(12250*8)/100
+Y=1040
+
+Z is the our fixed cost for that product on that day.
+Z=A+Y
+Z=12250+1040
+Z=13290
+
+
+Finally the Price Offered to the Customer by adding the 8 percent of interest
+
+S=(Z*8)/100
+S=13290+1100
+S=14390
+
+
+
+
+S will be offered to the Customer and then we accept the value from customer to bargain on in two cases;
+ 

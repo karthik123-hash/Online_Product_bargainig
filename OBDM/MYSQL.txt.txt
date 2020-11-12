@@ -1,0 +1,122 @@
+mysql>
+mysql>update mysql.user SET password=password("newpassword"winking smiley hit enter
+mysql>where user="root"; hit enter
+Query OK
+mysql>Flush Privileges; hit enter
+Query OK
+mysql>quit hit enter
+mysql>bye
+
+
+
+
+
+
+
+
+
+PUT THE PHP FILE INSIDE THE LOCALHOST THAT IS WWW/html/index.php
+
+
+
+
+
+
+<? print(Date("l F d, Y")); ?> 
+
+
+<?php
+$today = date("F j, Y");
+PRINT "$today";
+?>
+
+
+$date = date('Y-m-d H:i:s');
+
+$date = date('Y/m/d H:i:s');
+
+
+$now = new DateTime(null, new DateTimeZone('America/New_York'));
+echo $now->format('Y-m-d H:i:s');
+
+
+$date = new DateTime('now', new DateTimeZone('Asia/Kolkata'));
+ echo $date->format('d-m-Y H:i:s');
+
+
+$today = date("j, n, Y");  
+
+
+date_default_timezone_set("America/Chicago");
+$TIME = date('G:ia'); 
+
+
+
+
+
+
+
+
+
+Submit the data from a page when anchor tag is clicked 
+
+
+<form id="myform" method="POST" action="xxx">
+    <!-- your stuff here -->
+    <a href="javascript:void()" onclick="document.getElementById('myform').submit();>Ponies await!</a>
+</form>
+
+
+
+
+
+
+
+
+
+using the php code inside the html tag
+<td>Product ID</td>
+<td>
+    <input id="txt1" name="Product" class="required product"
+           value="<?php echo htmlentities($_GET['Productid']); ?>" />
+    &nbsp;<label class="star">*</label>
+</td>
+
+
+
+
+
+
+
+
+
+Current Date Minus 7 days
+<?php 
+$d=date("d-m-Y");
+$ld=date('d-m-Y', strtotime("-1 week"));
+echo $d;
+echo $ld;
+?>
+
+
+
+
+
+
+
+
+
+
+selecting the days between two days in sql query
+
+select *
+from MEMBERSHIP
+where '2011-01-31' between JoinedDate and LeaveDate
+
+
+
+SELECT *
+FROM product
+WHERE order_date between to_date ('2006/01/01', 'yyyy/mm/dd')
+AND to_date ('2006/12/31', 'yyyy/mm/dd');
+

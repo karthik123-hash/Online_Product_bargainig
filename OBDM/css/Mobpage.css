@@ -1,0 +1,97 @@
+
+* { margin: 0; padding: 0; outline: 0; }
+
+body {
+    font-size: 12px;
+    line-height: 12px;
+    font-family: "Trebuchet MS", arial, sans-serif;
+    background: #2a2a2a url('images/body-bg.png') repeat-x 0 18px;
+}
+.style4 {color: #0000CC} 
+.style8 {
+	color: #000000;
+	font-size: 40px;
+	font-weight: bold;
+}
+.style10 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #000000;
+}
+.style11 {
+	color: #000000;
+	font-weight: bold;
+	font-size: 16px;
+}
+.style12 {
+	font-size: 18px;
+	font-weight: bold;
+}
+.style13 {font-size: 14px}
+.style15 {font-size: 14px; font-weight: bold; }
+.style17 {
+	font-size:24px;
+	color:#FF6633;
+}
+
+.shell {
+	width: 978px;
+	margin: 0 auto;
+	padding: 0 0px;
+}
+.shell2{
+	width: 1300px;
+	margin: 0 auto;
+	padding: 0 0px;
+}
+.effect
+{margin-left: 250px
+}
+
+.effect1
+{margin-left: 130px}
+
+.effect2
+{margin-left: 250px}
+
+.effect3
+{margin-left: 150px}
+
+
+a { color: #0252aa; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }  /* last line home contact hyperlinks */
+
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; } /* text indentations */
+
+
+
+/* log text transparent */
+
+#log input { background: none; border: none; color:#000000}     /* background to text box*/
+
+#wrapper { background: url('images/white.jpg') repeat-x center 0px; }/* white colored background image*/
+
+/* Search button */
+#top { background: url('images/search-bg.png') repeat-x 0 0; padding-top: 20px; }
+
+
+/* Heading PCSTORE 
+h1#logo { padding-top: 10px; padding-bottom: 15px; }*/
+
+/* Navigation of Home special offer  login etc */
+#navigation { background: url('images/nav-bg.png') no-repeat center 0; margin-bottom: 24px; }
+#navigation li { float: left; display: inline; border-right: 1px solid #5b5b5b; }
+#navigation li a { float: left; height: 48px; line-height: 48px; font-weight: bold; font-size: 14px; color: #fff; display: inline; padding-left: 17px; padding-right: 16px; }
+#navigation li a:hover { background: url('images/nav-item.png') repeat-x 0 0; text-decoration: none; color: #85ff02; }
+
+
+/* Footer */
+#footer { background: url('images/footer-bg.png') repeat-x 0 0; color: #c5db87; font-size: 11px; padding-top: 9px; padding-bottom: 30px; }
+#footer a { color: #c5db87; }
+#footer span { padding: 0 6px; }
+#footer p { float: right; display: inline; font-family: arial, sans-serif; word-spacing: 1px; padding-right: 1px; }
+#footer p.bottom-menu { float: left; display: inline; font-family: "Trebuchet MS", arial, sans-serif; word-spacing: 0; padding-top: 1px; padding-left: 8px; }
+
+
+#buy .buy-button { background: url('images/search-field.png') no-repeat 0 0; color:#CC6600; width: 141px; height: 26px; float: left; display: inline; }
+

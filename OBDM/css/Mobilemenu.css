@@ -1,0 +1,73 @@
+
+
+* { margin: 0; padding: 0; outline: 0; }
+
+body {
+     font-size: 12px;
+    line-height: 12px;
+    font-family: "Trebuchet MS", arial, sans-serif;
+    background: url('images/white.jpg') repeat-x repeat-y;
+}
+
+.shell {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+
+.effect2
+{margin-left: 60px}
+
+
+.style4 {color: #000000}
+.style8 {
+	color: #000000;
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+a { color: #0252aa; text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+a img { border: 0; }
+
+
+
+.cl { display: block; height: 0; font-size: 0; line-height: 0; text-indent: -4000px; clear: both; }
+
+#log input { background: none; border: none; color:#000000; margin-left:800px}  
+
+/* Search button */
+#top { background: url('images/search-bg.png') repeat-x 0 0; padding-top: 20px; }
+/* Header */
+
+/* Navigation */
+#navigation { background: url('images/nav-bg.png') no-repeat center 0; margin-bottom: 10px; }
+#navigation li { float: left; display: inline; border-right: 1px solid #5b5b5b; }
+#navigation li a { float: left; height: 48px; line-height: 48px; font-weight: bold; font-size: 14px; color: #fff; display: inline; padding-left: 55px; padding-right: 16px; }
+#navigation li a:hover { background: url('images/nav-item.png') repeat-x 0 0; text-decoration: none; color: #85ff02; }
+
+
+
+
+/* Sidebar */
+
+#products h2 { padding: 17px 0 14px; font-weight: normal; margin-bottom: 21px; }
+#products .product { float: left; display: inline; padding-right: 20px; padding-bottom: 34px; text-align: center; position: relative; overflow: hidden; width: 186px; }
+#products .last { padding-right: 0; }
+#products .product a { no-repeat 0 0; display: block; width: 186px; height: 250px; }
+#products .product span { display: block; }
+#products .product .title { font-size: 12px; color: #a8a8a8; line-height: 20px; padding: 13px 0 6px; font-weight: bold; }
+#products .product img { padding-right: 2px; }
+#products .product .number { font-size: 11px; color:#000000 line-height: 20px; padding: 4px 0; }
+#products .product .price { font-weight: bold; font-size: 18px; color: #fff; }
+#products .product .price span { color: #a8a8a8; display: inline; }
+#products .product a:hover { background-position: 0 -250px; text-decoration: none; }
+#products .product a:hover .title { color: #fff; }
+
+/* Footer */
+#footer { background: url('images/footer-bg.png') repeat-x 0 0; color: #c5db87; font-size: 11px; padding-top: 9px; padding-bottom: 20px; }
+#footer a { color: #c5db87; }
+#footer span { padding: 0 10px; }
+#footer p { float: right; display: inline; font-family: arial, sans-serif; word-spacing: 1px; padding-right: 1px; }
+#footer p.bottom-menu { float: left; display: inline; font-family: "Trebuchet MS", arial, sans-serif; word-spacing: 0; padding-top: 1px; padding-left: 8px; }
